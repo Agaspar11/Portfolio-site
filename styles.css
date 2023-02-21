@@ -125,6 +125,10 @@ nav ul li a{
     grid-gap: 40px;
 }
 
+.portfolio h2 {
+    margin-top: 1%;
+}
+
 .portfolio_img {
     border-radius: 10px;
     position: relative;
@@ -136,6 +140,16 @@ nav ul li a{
     height: 400px;
     border-radius: 10px;
     display: block;
+}
+
+.portfolio_btn {
+    background-color: rgb(0, 255, 42);
+    color: white;
+    height: 84px;
+    width: 287px;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: .5% 1%;
 }
 /*<!-- *******************************CONTACT SECTION *******************************-->*/
 
