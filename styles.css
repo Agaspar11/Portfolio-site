@@ -155,5 +155,16 @@ nav ul li a{
 .contact {
     background-color: #242323;
     height: 100vh;
+    margin-top: 300px;
+    padding: 5%;
+}
+
+.contact_row {
+    display: flex;
+    flex-direction: row;
+}
+
+.contact h2 {
+    font-size: 60px;
 }
 /*<!-- *******************************FOOTER SECTION *******************************-->*/ 
