@@ -183,4 +183,163 @@ nav ul li a{
 .contact-left_icons a {
 text-decoration: none;
 }
-/*<!-- *******************************FOOTER SECTION *******************************-->*/ 
+.contact-left__icons a:hover {
+    color: #45893A;
+    transform: translateY(-5px);
+}
+
+.contact__btn {
+    display: block;
+    margin: 50px auto;
+    border: 1px solid #2ecc71;
+    padding: 14px 50px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: white;
+    width: fit-content;
+}
+
+.contact__btn:hover {
+    background: #2ecc71;
+}
+
+.contact_btn.contact_btn--1 {
+    display: inline-block;
+}
+
+.contact-right {
+    flex-basis: 60%;
+}
+
+.contact-right form {
+    width: 100%;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: #141414;
+    padding: 15px;
+    margin: 15px 0;
+    color: white;
+    font-size: 18px;
+    border: 6px;
+}
+
+
+.contact__btn.contact__btn--2 {
+    display: inline-block;
+    background-color: #312D2D;
+    font-size: 18px;
+}
+
+.contact__btn--2:hover {
+    background: #2ecc71;
+    cursor: pointer;
+}
+
+footer {
+    height: 15vh;
+    width: 100%;
+    text-align: center;
+    padding: 3% 0;
+    background-color: #D9D9D9;
+    font-weight: 300;
+
+
+}
+
+/*******************************FOOTER SECTION *******************************/
+
+
+
+/*-------------------------MEDIA QUERIES -------------------------*/
+
+/*-------------------------HERO SECTION -------------------------*/
+@media only screen and (max-width: 600px) {
+
+    .header {
+       background-image:none;
+       background-color: #242323;
+    }
+
+    .header__image{
+        display: block;
+    }
+
+    .header__image img{
+        object-fit: cover;
+        position: absolute;
+        top:50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+    }
+
+    .header-text {
+        display: none;
+    }
+
+    .header-text--2{
+        display: block;
+        position: absolute;
+        top: 80%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #fff;
+    }
+
+    .header-text--2 h2{
+        font-size: 20px;
+        font-weight: 200;
+        line-height: 1.8;
+    }
+
+    .header-text--2 span{
+        color: #20e700;
+    }
+
+/* 
+    .header-brand {
+       
+    }
+    .header-brand__span {
+      
+    }
+    nav {
+      
+    }
+    nav ul li {
+       
+    }
+    nav ul li a {
+       
+    }
+   
+    .header-text h1 {
+       
+    } */
+}
+
+/*-------------------------ABOUT SECTION -------------------------*/
+/* @media only screen and (max-width: 600px){
+    
+} */
+
+/*-------------------------PORTFOLIO SECTION -------------------------*/
+/* @media only screen and (max-width: 600px){
+    
+} */
+/*-------------------------CONTACT SECTION -------------------------*/
+/* @media only screen and (max-width: 600px){
+    
+} */
+
+/*-------------------------FOOTER SECTION -------------------------*/
+/* @media only screen and (max-width: 600px){
+    
+} */
