@@ -307,7 +307,7 @@ footer {
        background-color: #242323;
     }
 
-    .header__image{
+    /* .header__image{ 
         display: block;
     }
 
@@ -345,38 +345,13 @@ footer {
         color: #20e700;
     }
 
-/* 
-    .header-brand {
-       
-    }
 
-    .header-brand__span {
-      
-    }
-
-    nav {
-      
-    }
-
-    nav ul li {
-       
-    }
-
-    nav ul li a {
-       
-    }
-
-   
-
-    .header-text h1 {
-       
-    } */
 }
 
 /*-------------------------ABOUT SECTION -------------------------*/
-/* @media only screen and (max-width: 600px){
-    
-} */
+/* @media only screen and (max-width: 600px){ */
+
+/* } */
 
 /*-------------------------PORTFOLIO SECTION -------------------------*/
 /* @media only screen and (max-width: 600px){
