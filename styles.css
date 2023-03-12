@@ -20,7 +20,7 @@ body {
 
 .header {
     height: 100vh;
-    background-image: linear-gradient(rgba(3, 4, 7, 0.48), rgba(5, 10, 30, 0.48)), url('https://github.com/KodeGo-Bootcamp/HTML-Activity-Images/blob/main/pexels-royal-anwar-450214.jpg?raw=true');
+    background-image: linear-gradient(rgba(3, 4, 7, 0.48), rgba(5, 10, 30, 0.48)), url('IMG_20210712_132939.jpg');
     background-size: cover;
     background-position: center;
 }
@@ -307,6 +307,12 @@ footer {
        background-color: #242323;
     }
 
+    .about-img {
+        display: block;
+        text-align: center;
+        padding: 0 3% 5% 0;
+    }
+}
     /* .header__image{ 
         display: block;
     }
@@ -365,4 +371,4 @@ footer {
 /*-------------------------FOOTER SECTION -------------------------*/
 /* @media only screen and (max-width: 600px){
     
-} */
+}
